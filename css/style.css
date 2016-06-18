@@ -1,0 +1,33 @@
+body {
+  background: #efefef;
+  font-family: 'Andale Mono', courier, monospace;
+}
+
+#canvas {
+  border:1px solid red;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.wordsearch {
+  padding: 10px 20px;
+}
+
+.board {
+  cursor: pointer;
+}
+
+.new-game {
+  margin-bottom: 20px;
+}
+
+.letter {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  display: inline-block;
+}
