@@ -7,18 +7,21 @@
 </head>
 <body>
   <div class="container">
+      <button class="new-game">New Game</button>
     <div class="wordsearch">
       <h1>Wordsearch</h1>
-      <button class="new-game">New Game</button>
       <div class="board"></div>
+      <div class="words">
+        Possible words:
+        <div class="word-list"></div>
+      </div>
     </div>
   </div>
 
-  <canvas id="canvas" width=300 height=300></canvas>
+  <!-- <canvas id="canvas" width=300 height=300></canvas> -->
   <script src="https://rawgit.com/kangax/fabric.js/master/dist/fabric.js"></script>
   <script src="js/jquery-2.2.3.min.js"></script>
   <script src="js/random_letters.js"></script>
   <script src="js/word_search.js"></script>
-  <script src="js/temp.js"></script>
 </body>
 </html>
